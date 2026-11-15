@@ -20,6 +20,6 @@ class PostRequestTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("works data"));
+                .body("data", equalTo("some data"));
     }
 }
